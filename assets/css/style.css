@@ -1,0 +1,314 @@
+* {
+  box-sizing: border-box;
+  text-align: left;
+}
+
+header {
+  background: #ffffff;
+  overflow: auto;
+  padding-right: 17%;
+  padding-left: 4%;
+  border: 2px solid #cccccc;
+}
+
+/* Header buttons and name CSS */
+#about, #portfolio, #contact {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 12pt;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #cccccc;
+  border-right: 1px solid #cccccc;
+  float: right;
+  margin-top: 30px;
+}
+
+a:hover {
+	color: #4aaaa5;
+}	
+
+a:link {
+    color: ##777777;
+} */
+
+a:visited {
+    text-decoration: none;
+}
+
+a:visited:hover {
+	color: #4aaaa5;
+}
+
+#myname {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 17pt;
+	font-weight: 900;
+	background: #4aaaa5;
+	padding: 25px;
+	margin-left: 21%;
+	margin-bottom: 0%;
+	color: white;
+	float: left;
+}
+
+/* background for all pages CSS */
+#background {
+	padding: 20px;
+	padding-bottom: auto;
+	overflow: auto;
+	border: 1px solid #dddddd;
+	background-image: url(../images/what-the-hex.png);
+}
+
+/* CSS for all middle sections*/
+#aboutmebackground, #contactbackground {
+	background: white;
+	width: 960px;
+	padding: 30px;
+	padding-bottom: auto;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border: 1px solid #dddddd;
+}
+
+/* Titles within background CSS */
+#aboutmetitle, #portfoliotitle, #contacttitle {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20pt;
+	text-align: left;
+	color: #4aaaa5;
+	padding-bottom: 25px;
+	font-weight: 900;
+	border-bottom: 2px solid #dddddd;
+
+
+}
+
+/* About me section CSS */
+#mypic {
+	float: left;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+#aboutmetext {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+
+}
+
+#tealline {
+	background: #4aaaa5;
+	padding: 5px;
+}
+
+footer {
+	color: white;
+	background: #666666;
+	padding: 30px;
+	text-align: center;
+	padding-bottom: 5px;
+	font-size: 8pt;
+}
+
+
+/* CSS for Contact Page */
+#contactbox {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	padding: 0px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #cccccc;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Portfolio CSS */
+#portfoliobackground {
+	background: white;
+	width: 960px;
+	padding: 30px;
+	padding-bottom: 600px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border: 1px solid #dddddd;
+
+}
+
+#hangman-game, #rpg-game, #trivia-game, #rutgers-widget, #rock-paper-scissors-game {
+	float: left;
+	padding: 20px;
+}
+
+#hangman-text-box, #rpg-text-box, #triva-text-box, #rutgers-widget-text-box, #rock-paper-scissors-text-box {
+	position: absolute; 
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	width: 200px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	margin-top:  -60px;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+	color: #cccccc;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+@media (max-width: 640px) {
+	p {
+		font-size: 11pt;
+	}
+}
+
+@media (max-width: 640px) {
+	#aboutmebackground {
+		width: 500px;
+		margin-left: 7%;
+	}
+}
+
+@media (max-width: 640px) {
+	#mypic {
+		width: 100%;
+		padding-right: 5px;
+		padding-left: 20px;
+		margin-bottom: 15px;
+		margin-right: 10px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 640px) {
+	#myname {
+		width: 100%;
+		margin-left: 0px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 640px) {
+	header {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+}
+
+@media (max-width: 640px) {
+	#contact {
+		margin-right: 180px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 640px) {
+	#portfolio {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 640px) {
+	#about {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}
+ 
+@media (max-width: 640px) {
+	#contactbackground {
+		width: 500px;
+		margin-left: 5%;
+	}
+}
+
+@media (max-width: 640px) {
+	#portfoliobackground {
+		width: 500px;
+		margin-left: 5%;
+		padding-bottom: 1010px;
+	}
+}
+	
+@media (min-width: 641px) and (max-width: 768px) {
+	#aboutmebackground, #portfoliobackground, #contactbackground { 
+		width: 690px;
+		margin-left: 1%;
+	}
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+	#myname { 
+		margin-left: 0%;
+	}
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+	header { 
+		padding-right: 30px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 980px) {
+	#aboutmebackground, #portfoliobackground, #contactbackground { 
+		width: 700px;
+		margin-left: 1%;
+	}
+
+@media (min-width: 769px) and (max-width: 980px) {
+	#myname { 
+		margin-left: 0%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 980px) {
+	header { 
+		padding-right: 40px;
+		padding-left: 30px;
+	}
+}
+
